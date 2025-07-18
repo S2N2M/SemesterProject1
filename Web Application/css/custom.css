@@ -1,0 +1,93 @@
+/* = General Styles = */
+body,
+.table-body td {
+    font-family: Calibri, Helvetica, sans-serif;
+    color: #212529;
+}
+
+.toastBody {
+    white-space: pre-line;
+}
+
+/* = Navbar and Headers = */
+.navbar,
+.table-header th,
+.time-text {
+    font-family: Consolas, Helvetica, sans-serif;
+    background-color: #0E8EA8;
+    color: #fff;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:visited {
+    color: #fff; 
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: bold; 
+}
+
+/* = Dropdown Menus = */
+.dropdown-menu {
+    background-color: #83D1E1; 
+}
+
+.dropdown-item {
+    color: #212529; 
+}
+
+.dropdown-menu a:hover,
+.dropdown-item:hover {
+    background-color: transparent; 
+    color: #212529; 
+    font-weight: bold;
+}
+
+/* = Table styles = */
+.table-body td {
+    background-color: #83D1E1;
+}
+
+.table {
+    border-radius: 2px;
+    border-color: #212529;
+    overflow: hidden;
+}
+
+/* = Button Styles = */
+.btn {
+    font-family: Consolas, Helvetica, sans-serif;
+    color: #fff !important;
+    width: 100px;
+    height: 40px;
+}
+
+.negative-btn,
+.negative-btn:hover {
+    background-color: #DC3545;
+}
+
+.positive-btn,
+.positive-btn:hover {
+    background-color: #198754;
+}
+
+/* = Dashboard Section = */
+#dashboard {
+    display: flex;
+    align-items: center;
+}
+
+/* = Clock Styles = */
+#clock {
+    padding: 10px;
+  }
+
+.time-text {
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    font-size: 16px; 
+  }
